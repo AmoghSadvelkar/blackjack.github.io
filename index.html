@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="BlackJack.css">
+    <title>BlackJack</title>
+</head>
+    <body>
+        <div class="full">
+            <div class="container-1">
+                <h2 class="top">Blackjack CSS Micro Project</h2>
+                <h3><samp id="blackjack-result" class="result">Let's play</samp></h3>
+        
+            <div class="flex-blackjack-row-1">
+            <div id="your-box">
+                <h2>You: <sanp id="your-blackjack-result" style="color: #ffffff">0</sanp></h2>
+            </div>
+
+            <div id="dealer-box">
+                <h2>Dealer: <span id="dealer-blackjack-result" style="color:#ffffff;">0</span></h2>
+            </div>
+            </div>
+
+            <div class="flex-blackjack-row-2">
+                <div>
+                    <button class="btn-lg btn-primary mr-2" id="blackjack-hit-button">Hit</button>
+                    <button class="btn-lg btn-warning mr-2" id="blackjack-stand-button">Stand</button>
+                    <button class="btn-lg btn-danger " id="blackjack-deal-button">Deal</button>
+                </div>
+            </div>
+
+            <div class="flex-blackjack-row-3">
+                <table>
+                    <tr>
+                        <th>Wins</th>
+                        <th>Losses</th>
+                        <th>Draws</th>
+                    </tr>
+
+                        <tr>
+                            <td><span id="wins" style="color: black;">0</span></td>
+                            <td><span id="losses" style="color: black;">0</span></td>
+                            <td><span id="draws" style="color: black;">0</span></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    <script src="BlackJack.js">
+    </script>
+    </body>
+</html>
